@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taber-Js</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="tabs-btns">
+        <button
+          class="tabs-btns__btn tabs-btns__btn_active"
+          data-open-tab="t-1"
+        >
+          1
+        </button>
+        <button class="tabs-btns__btn" data-open-tab="t-2">2</button>
+        <button class="tabs-btns__btn" data-open-tab="t-3">3</button>
+      </div>
+
+      <div class="tabs">
+        <div class="tabs__tab tabs__tab_active" data-tab="t-1">
+          <h2>Таб - 1</h2>
+        </div>
+        <div class="tabs__tab" data-tab="t-2">
+          <h2>Таб - 2</h2>
+        </div>
+        <div class="tabs__tab" data-tab="t-3">
+          <h2>Таб - 3</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

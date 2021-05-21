@@ -1,0 +1,15 @@
+.tabs-btns__btn {
+  padding: 7px 15px;
+}
+
+.tabs-btns__btn_active {
+  background-color: #1771f1;
+}
+
+.tabs__tab {
+  display: none;
+}
+
+.tabs__tab_active {
+    display: flex;
+}
